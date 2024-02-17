@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)hlo00(rjicsbem-o+bqn_a6dyr*67=j7t#n@oe#&)c$s4dkn*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ec2-13-232-201-19.ap-south-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-3-108-238-191.ap-south-1.compute.amazonaws.com', '3.108.238.191']
 
 
 # Application definition
@@ -127,8 +127,4 @@ AUTH_USER_MODEL = 'app.CustomUser' # add the custom user model to the settings
 LOGOUT_REDIRECT_URL = 'login'  # specify the page to redirect to after logout, usually homepage
 LOGIN_REDIRECT_URL = 'login_success'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # add the static directory to the STATIC_ROOT setting
-STATICFILES_DIRS = [
-    BASE_DIR / 'static',
-] # add the static directory to the STATICFILES_DIRS setting
-MEDIA_ROOT = BASE_DIR / 'media'
-MEDIA_URL = '/media/'
+'
