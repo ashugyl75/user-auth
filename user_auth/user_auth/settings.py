@@ -127,4 +127,3 @@ AUTH_USER_MODEL = 'app.CustomUser' # add the custom user model to the settings
 LOGOUT_REDIRECT_URL = 'login'  # specify the page to redirect to after logout, usually homepage
 LOGIN_REDIRECT_URL = 'login_success'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # add the static directory to the STATIC_ROOT setting
-'
