@@ -1,0 +1,15 @@
+# Ignore all markdown files
+*.md
+
+# Ignore Python dependency files
+*.pyc
+__pycache__/
+
+# Ignore Python virtual environments
+venv/
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore SQLite database files
+*.sqlite3
